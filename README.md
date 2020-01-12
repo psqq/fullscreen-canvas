@@ -12,7 +12,7 @@ npm i fullscreen-canvas
 
 # How to use
 
-```
+```javascript
 import FullscreenCanvas from "fullscreen-canvas";
 
 const fscan = new FullscreenCanvas();
@@ -36,7 +36,7 @@ requestAnimationFrame(go);
 
 # Recommended styles for body (for hide scroll bars)
 
-```
+```css
 body {
     margin: 0;
     overflow: hidden;
